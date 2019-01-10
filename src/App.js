@@ -105,12 +105,12 @@ function Album(props) {
             <div className={classes.heroButtons}>
               <Grid container spacing={16} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
+                  <Button variant="contained" color="primary" href = "https://www.aikencountysc.gov/">
                     Contact Us
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
+                  <Button variant="outlined" color="primary" href = "https://www.aikencountysc.gov/">
                     More Info
                   </Button>
                 </Grid>
@@ -140,10 +140,10 @@ function Album(props) {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary">
+                  <Button size="small" color="primary" href = "https://www.aikencountysc.gov/">
                     View
                   </Button>
-                  <Button size="small" color="primary">
+                  <Button size="small" color="primary" href = "https://www.aikencountysc.gov/">
                     Edit
                   </Button>
                 </CardActions>
