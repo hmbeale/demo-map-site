@@ -4,6 +4,7 @@ import classNames from "classnames";
 import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
+import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -58,18 +59,18 @@ const styles = theme => ({
 });
 
 const cards = [
-  {image: require('./thumbnails/map0.png'), title: 'Map Title Zero', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map1.png'), title: 'Map Title One', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map2.png'), title: 'Map Title Two', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map3.png'), title: 'Map Title Three', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map4.png'), title: 'Map Title Four', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map5.png'), title: 'Map Title Five', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map6.png'), title: 'Map Title Six', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map7.png'), title: 'Map Title Seven', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map8.png'), title: 'Map Title Eight', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map9.png'), title: 'Map Title Nine', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map10.png'), title: 'Map Title Ten', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-  {image: require('./thumbnails/map11.png'), title: 'Map Title Eleven', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
+  {image: require('./thumbnails/map0.png'), title: 'Map Title Zero', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map1.png'), title: 'Map Title One', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map2.png'), title: 'Map Title Two', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map3.png'), title: 'Map Title Three', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map4.png'), title: 'Map Title Four', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map5.png'), title: 'Map Title Five', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map6.png'), title: 'Map Title Six', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map7.png'), title: 'Map Title Seven', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map8.png'), title: 'Map Title Eight', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map9.png'), title: 'Map Title Nine', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map10.png'), title: 'Map Title Ten', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  {image: require('./thumbnails/map11.png'), title: 'Map Title Eleven', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
 ];
 
 function Album(props) {
@@ -125,11 +126,12 @@ function Album(props) {
           {cards.map(card => (
             <Grid item key={card} sm={6} md={4} lg={3}>
               <Card className={classes.card}>
+               <CardActionArea href = "https://www.aikencountysc.gov/">
                 <CardMedia
                   className={classes.cardMedia}
                   image= {card.image}
                   image = {card.image}
-                  title="Image title"
+                  title= {card.title}
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -139,14 +141,7 @@ function Album(props) {
                     {card.description}
                   </Typography>
                 </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary" href = "https://www.aikencountysc.gov/">
-                    View
-                  </Button>
-                  <Button size="small" color="primary" href = "https://www.aikencountysc.gov/">
-                    Edit
-                  </Button>
-                </CardActions>
+                </CardActionArea>
               </Card>
             </Grid>
           ))}
