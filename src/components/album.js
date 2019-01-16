@@ -61,51 +61,51 @@ const styles = theme => ({
 const cards = [
   {image: require('../thumbnails/map0.png'), title: 'Map Title Zero',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map1.png'), title: 'Map Title One',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map2.png'), title: 'Map Title Two',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map3.png'), title: 'Map Title Three',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map4.png'), title: 'Map Title Four',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map5.png'), title: 'Map Title Five',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map6.png'), title: 'Map Title Six',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map7.png'), title: 'Map Title Seven',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map8.png'), title: 'Map Title Eight',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map9.png'), title: 'Map Title Nine',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map10.png'), title: 'Map Title Ten',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 
   {image: require('../thumbnails/map11.png'), title: 'Map Title Eleven',
   href: 'https://www.aikencountysc.gov/',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
 ];
 
 function Album(props) {
